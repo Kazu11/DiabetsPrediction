@@ -5,6 +5,25 @@
             Diabet’s Prediction
         </title>
     </head>
-    <body>
+    <body>       
+                <center>
+        
+                <h1> Diabet’s Prediction </h1><br>
+                
+                <form method="POST", action="{{url_for('home')}}">
+                   <b> Gender :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+                    Umur :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+                    Hipertensi :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+                    Sakit Jantung : <input type="text", name='d', placeholder="enter 4"> <br><br>
+                    Riwayat Merokok : <input type="text", name='e', placeholder="enter 5"> <br><br>
+                    Body Mass Index : <input type="text", name='f', placeholder="enter 6"> <br><br>
+                    HbA1c : <input type="text", name='g', placeholder="enter 7"> <br><br>
+                    Gula Darah : <input type="text", name='h', placeholder="enter 8"> <br><br>
+                    Diabetes : <input type="text", name='i', placeholder="enter 9"> <br><br><br></b>
+                    <input type="submit" , value='predict!' >
+                </form>
+                
+            </center>
+
     </body>
 </html>
